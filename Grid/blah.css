@@ -1,0 +1,19 @@
+.main{
+    display: grid;
+    border: 5px solid limegreen;
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 8px;
+    row-gap: 8px;
+}
+
+
+.sub{
+    border: 4px solid orangered;
+}
+.sub:nth-child(3){
+    background: palevioletred;
+    grid-column-start: span 3;
+    grid-row-start: span 3;
+}

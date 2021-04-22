@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/home.css">
+    <script src="./JAVASCRIPT/home.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="top">
+        <div class="logo">
+            <div class="rs">
+                RS.
+            </div>
+        </div>
+        <!-- <div class="name">RIJUL SARJI</div> -->
+        <div class="project"><a href="#projecttab"></a></div>
+        <div id="button" onclick="oppen('menu'); myFunction(this);">
+            <!-- button animations -->
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <!-- <button onclick="oppen('menu');">open</button> -->
+        </div>
+    </div>
+
+    <div id="menu">
+        <!-- Right Nav Bar -->
+        <div class="navbar">
+            <!-- <button onclick="closse('menu');" style="font-size: 30px; height: 45px; width: 45px; margin: 7vh 25px 30px;">&backsim; </button> -->
+            <div class="cross" onclick="closse('menu');">
+                <p style="color: white; font-size: 60px; margin: 7vh 25px 30px; cursor: default;">&times</p>
+            </div>
+            <a href="#" class="links">Home</a>
+            <a href="./achievement.html" class="links">My Achievements</a>
+            <a href="./about.html" class="links">About Me</a>
+
+            <!-- Social media buttons -->
+            <div class="social"> 
+                <!-- <a href="#"><img src="./IMAGES/Social/GitHub.png" alt=""></a> -->
+                <a href="https://github.com/rijulsarji" target="_blank"><img src="./IMAGES/Social/GitHub-white.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/rijul-sarji/" target="_blank"><img src="./IMAGES/Social/Linkedin.png" width="32px" alt=""></a>
+                <a href="https://www.instagram.com/rijul_sarji/" target="_blank"><img src="./IMAGES/Social/Instagram.png" width="32px" alt=""></a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- background image -->
+    <div class="bgimage" id="#">
+    </div>
+
+    <p class="title">My Skillset</p>    
+
+    <div class="skillset">
+        <div class="skill" id="hackerrank">
+            <img src="./IMAGES/Skill Icons/Hackerrank.png" alt="" width="70px">
+            <br>
+            <h1>Competetive Coding</h1>
+            <br>
+            <p>Earned HackerRank badges in multiple languages</p>
+        </div>
+
+        <div class="skill" id="python" style="padding-top: 25px;">
+            <img src="./IMAGES/Skill Icons/Python.png" alt="" width="70px">
+            <br>
+            <h1>Python Language</h1>
+            <br>
+            <p>We acquainted with basic libraries in python</p>
+        </div>
+
+        <div class="skill" id="android">
+            <img src="./IMAGES/Skill Icons/Android.png" alt="" width="150px">
+            <br>
+            <h1 style="margin-top: 0px;">Android App Development</h1>
+            <br>
+            <p>Experience in developing apps using Android Studio and Java</p>
+        </div>
+        
+        <div class="skill" id="web">
+            <img src="./IMAGES/Skill Icons/Web Dev.png" alt="" width="70px">
+            <br>
+            <h1>Web Development</h1>
+            <br>
+            <p>Experience in designing webpages using HTML, CSS and JavaScript</p>
+        </div>
+
+        <div class="skill" id="hackathon">
+            <img src="./IMAGES/Skill Icons/Hackathon.png" alt="" width="70px">
+            <br>
+            <h1>Hackathon Participation</h1>
+            <br>
+            <p>Participated in 3 Hackathons, won 2nd prize in 1 of the Hackathons</p>
+        </div>
+        <div class="skill"></div>
+        <div class="skill"></div>
+        <div class="skill"></div>
+        
+    </div>
+
+    <p class="title" id="projecttab" >My Projects</p>
+
+    <div>
+        <div class="card-container">
+            
+            <div class="card" onclick="window.open('https://github.com/rijulsarji/Voice-Assistant-using-gTTS-and-Spreech-Recognition','newwindow');" id="P1" style="background-color: white;" >
+                <header class="article-header">
+                    <div>
+                        <div class="category-title" style="color: rgb(0, 179, 179);">
+                            <span class="projname" >Amanda Voice Assistant</span>
+                            <br>
+                            <span class="date">September 2020</span>
+                        </div>
+                    </div>
+                </header>
+                <img src="./IMAGES/Project Logos/Amanda.jpg" class="projimg" alt="" >
+                <div class="tags" style="color: rgb(0, 179, 179);">
+                    <div style="margin-right: 10px;">Python</div>
+                    <div>gTTS</div>
+                </div>
+            </div>
+
+            <!-- repeat the card here. -->
+            <div class="card" onclick="window.open('https://github.com/rijulsarji/2D-Shooting-Game-Using-PyGame', 'newwindow');" id="P2" style="background-color: rgb(0, 44, 0);">
+                <header class="article-header">
+                    <div>
+                        <div class="category-title" style="color: rgb(199, 236, 199);">
+                            <span class="projname">2D Shooting Game</span>
+                            <br>
+                            <span class="date">October 2020</span>
+                        </div>
+                    </div>
+                </header>
+                <div style="display: flex; justify-content: center; align-items: center; width: 250px;">
+                <img src="./IMAGES/Project Logos/R2E.png" alt="" width="150px">
+                <img src="./IMAGES/Project Logos/L2.png" alt="" width="150px">
+                </div>
+                <div class="tags" style="color: rgb(199, 236, 199);">
+                    <div style="margin-right: 10px;border-color: rgb(199, 236, 199)">Python</div>
+                    <div style="border-color: rgb(199, 236, 199);">PyGame</div>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="card" onclick="window.open('https://github.com/rijulsarji/Hackathon-Moody-AI','newwindow');" style="background-color: rgb(2, 87, 80);">
+                <header class="article-header">
+                    <div>
+                        <div class="category-title" style="color: rgb(0, 255, 191);">
+                            <span class="projname">Moody-AI</span>
+                            <br>
+                            <span class="date">February 2021</span>
+                        </div>
+                    </div>
+                </header>
+                <img src="./IMAGES/Project Logos/Moody Ai.png" alt="" class="projimg">
+
+                <div class="tags" style="color: rgb(0, 255, 191);">
+                    <div style="border-color: rgb(0, 255, 191);">Python</div>
+                    <!-- <div>HTML</div> -->
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="card" onclick="window.open('https://github.com/rijulsarji/Cindy-the-BMI-Calculator','newwindow');" style="background-color: rgb(94, 190, 250);">
+                <header class="article-header">
+                    <div>
+                        <div class="category-title" style="color: darkblue;">
+                            <span class="projname">BMI Calculator</span>
+                            <br>
+                            <span class="date">March 2021</span>
+                        </div>
+                    </div>
+                </header>
+                <img src="./IMAGES/Project Logos/Cindy.png" alt="" width="100px" style="display: block; margin-left: auto; margin-right: auto;">
+
+                <div class="tags" style="color: darkblue;">
+                    <div style="margin-right: 10px; border-color: darkblue;" >Java</div>
+                    <div style="border-color: darkblue;">Android Studio</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bottom">
+        <div><p>Copyright &copy 2021</p></div>
+        <div><a href="#">Back To Top</a></div>
+        <div></div>
+    </div>
+</body>
+</html>

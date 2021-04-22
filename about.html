@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="./CSS/about.css">
+    <script src="./JAVASCRIPT/about.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Rufina:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <div class="logo">
+            <div class="rs">
+                RS.
+            </div>
+        </div>
+        <div class="project"><a href="#projecttab"></a></div>
+        <div id="button" onclick="oppen('menu'); myFunction(this);">
+            <!-- button animations -->
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <div id="menu">
+        <!-- Right Nav Bar -->
+        <div class="navbar">
+            <div class="cross" onclick="closse('menu');">
+                <p style="color: white; font-size: 60px; margin: 7vh 25px 30px; cursor: default;">&times</p>
+            </div>
+            <a href="./index.html" class="links">Home</a>
+            <a href="./achievement.html" class="links">My Achievements</a>
+            <a href="#" class="links">About Me</a>
+
+            <!-- Social media buttons -->
+            <div class="social"> 
+                <a href="https://github.com/rijulsarji" target="_blank"><img src="./IMAGES/Social/GitHub-white.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/rijul-sarji/" target="_blank"><img src="./IMAGES/Social/Linkedin.png" width="32px" alt=""></a>
+                <a href="https://www.instagram.com/rijul_sarji/" target="_blank"><img src="./IMAGES/Social/Instagram.png" width="32px" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <p class="title" id="#">About Me</p>
+    <div class="text">
+        <div class="intro">
+            <span class="subtitle">Hello There</span>
+            <h1>My name is Rijul Sarji. <br>I make projects.</h1>
+            <p>I am a first year student currently pursuing B.Tech in Computer Science at SRM Institute of Science & Technology, Kattankulathur. I reside in Delhi. I am well exposed to front end UI/UX as well as back end python at an intermediate level. <br><br> As a front end designer, I like to set forth the optimum experience to the end user, and as a back end developer, I provide best methods for efficiency. I have the zeal to solve complex problems as well. <br><br> You can find me on a turf playing football or at Devfolio Hackathons.</p>
+        </div>
+
+        <div class="contact">
+            <span class="subtitle">Get In Touch</span>
+            <div style="margin-top: 25px;">
+            <span class="details" style="color: rgb(126, 126, 126); ">rijulsarji@gmail.com</span> <br>
+            <span class="details">(+91)8368536432</span>
+            </div>
+            <div style="margin-top: 50px;"></div>
+            <span class="subtitle" style="margin-top: 250px;">Miscellaneous</span>
+            
+                <span class="details" style="text-align: left;">
+                <p style="margin-top: 0px; font-family: 'Noto Sans JP', sans-serif; line-height: 40px;"> 
+                    Up to the minute with the latest tech. <br>
+                    Love listening old rock and soft pop music. <br>
+                    Always perceiving and observing for new innovations. <br>
+                    Enthusiastic about cars. <br>
+                </p>
+                </span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

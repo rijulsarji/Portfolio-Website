@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Achievements</title>
+    <link rel="stylesheet" href="./CSS/achievement.css">
+    <script src="./JAVASCRIPT/achievement.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="top">
+        <div class="logo">
+            <div class="rs">
+                RS.
+            </div>
+        </div>
+        <div class="project"><a href="#projecttab"></a></div>
+        <div id="button" onclick="oppen('menu'); myFunction(this);">
+            <!-- button animations -->
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <div id="menu">
+        <!-- Right Nav Bar -->
+        <div class="navbar">
+            <div class="cross" onclick="closse('menu');">
+                <p style="color: white; font-size: 60px; margin: 7vh 25px 30px; cursor: default;">&times</p>
+            </div>
+            <a href="./index.html" class="links">Home</a>
+            <a href="#" class="links">My Achievements</a>
+            <a href="./about.html" class="links">About Me</a>
+
+            <!-- Social media buttons -->
+            <div class="social"> 
+                <a href="https://github.com/rijulsarji" target="_blank"><img src="./IMAGES/Social/GitHub-white.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/rijul-sarji/" target="_blank"><img src="./IMAGES/Social/Linkedin.png" width="32px" alt=""></a>
+                <a href="https://www.instagram.com/rijul_sarji/" target="_blank"><img src="./IMAGES/Social/Instagram.png" width="32px" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <p class="title" id="#">My Achievements</p>
+    <div class="board">
+        <div class="achievement">
+            <div class="hackerrank">
+                <div class="badge">
+                    <img src="./IMAGES/Achievement/CPP.png" alt="">
+                    <p>5&star; <br> C++</p>
+                </div>
+                <div class="badge">
+                    <img src="./IMAGES/Achievement/PPS.png" alt="">
+                    <p>3&star; <br> Problem Solving</p>
+                </div>
+                <div class="badge">
+                    <img src="./IMAGES/Achievement/Python.png" alt="">
+                    <p>3&star; <br> Python</p>
+                </div>
+                <div class="badge">
+                    <img src="./IMAGES/Achievement/C-language.png" alt="">
+                    <p>3&star; <br> C Language</p>
+                </div>
+            </div>
+        </div>
+        <div class="achievement">
+            <div class="hack">
+                <img src="./IMAGES/Achievement/Hackathon.png" alt="">
+                <p>TechCrawler Hackathon <br> Runner Up</p>
+            </div>
+        </div>
+        <div class="achievement">
+            <div class="aarhack">
+                <img src="./IMAGES/Achievement/Hack 2.png" alt="" width="250px" style="margin-bottom: 100px;">
+                <p>Participated in Hybrid Hackathon</p>
+            </div>
+        </div>
+        <div class="achievement">
+            <div class="nasahack">
+                <img src="./IMAGES/Achievement/Nasa Hack.png" alt="" width="150px">
+                <p>Participated in Nasa Space Apps Challenge</p>
+            </div>
+        </div>
+        <div class="achievement">
+            <img src="./IMAGES/Achievement/Nielit.png" alt="" width="200px" style="margin-bottom: 100px;">
+            <p>NIELIT Python Certificate Course</p>
+        </div>
+    </div>
+
+    <!-- <div class="bottom">
+        <div><p>Copyright &copy 2021</p></div>
+        <div><a href="#">Back To Top</a></div>
+        <div></div>
+    </div> -->
+</body>
+</html>
