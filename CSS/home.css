@@ -121,7 +121,63 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25vh;
+    padding-left: 10vw;
+    color: rgb(174, 202, 255);
+}
+.intro h1{
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 900;
+    font-size: 30px;
+}
+.intro p{
+    font-family: 'Rufina', serif;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 55px;
+    line-height: 70px;
+}
+.aboutt{
+    width: 110%;
+    height: 110%;
+}
+.aboutt a{
+    width: 110%;
+    height: 110%;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: rgb(174, 202, 255);
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+}
+.intro a:hover{
+    background: rgb(174, 202, 255);
+    color: rgb(0, 0, 75);
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    
+}
+.down a{
+    width: 110%;
+    height: 110%;
+    padding: 5px;
+    margin-top: 120px;
+    font-size: 25px;
+    color: rgb(174, 202, 255);
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.5s, color 0.5s;
+}
 /* skillset grid */
 .skillset{
     margin-top: 50px;
@@ -153,7 +209,11 @@ body{
     box-shadow: black 0px 0px 5px;
     text-align: center;
     transition: box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.skill h1{
+    font-size: 30px;
 }
 .skill img{
     padding-top: 20px;
@@ -286,7 +346,9 @@ body{
     font-size: 17px;
 }
 .title{
-    font-family: 'Noto Sans JP', sans-serif;
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1.5px;
     text-align: center;
     margin-top: 100px;
     font-size: 50px;
