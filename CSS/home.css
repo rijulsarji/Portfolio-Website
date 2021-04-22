@@ -147,8 +147,8 @@ body{
 .aboutt a{
     width: 110%;
     height: 110%;
-    padding: 5px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 7px;
     font-size: 25px;
     color: rgb(174, 202, 255);
     text-decoration: none;
@@ -168,14 +168,14 @@ body{
 .down a{
     width: 110%;
     height: 110%;
-    padding: 5px;
+    padding: 10px;
     margin-top: 120px;
     font-size: 25px;
     color: rgb(174, 202, 255);
     font-family: 'Kanit', sans-serif;
     font-weight: 900;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 7px;
     transition: background-color 0.5s, color 0.5s;
 }
 /* skillset grid */
@@ -209,11 +209,14 @@ body{
     box-shadow: black 0px 0px 5px;
     text-align: center;
     transition: box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
-    /* font-family: 'Kanit', sans-serif; */
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Merriweather Sans', sans-serif; */
 }
 .skill h1{
     font-size: 30px;
+}
+.skill p{
+    font-size: 20px;
 }
 .skill img{
     padding-top: 20px;
@@ -347,14 +350,17 @@ body{
 }
 .title{
     /* font-family: 'Noto Sans JP', sans-serif; */
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Merriweather Sans', sans-serif;
     letter-spacing: 1.5px;
     text-align: center;
     margin-top: 100px;
     font-size: 50px;
     font-weight: 800;
     color: rgb(8, 8, 80);
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    text-transform: uppercase;
+    word-spacing: 7px;
 }
 
 .bottom{
