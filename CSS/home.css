@@ -209,8 +209,9 @@ body{
     box-shadow: black 0px 0px 5px;
     text-align: center;
     transition: box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
     /* font-family: 'Merriweather Sans', sans-serif; */
+    font-family: 'Kumbh Sans', sans-serif;
 }
 .skill h1{
     font-size: 30px;
@@ -238,7 +239,7 @@ body{
     box-shadow: green 0px 0px 10px;
 }
 #python:hover{
-    box-shadow: yellow 0px 0px 10px;
+    box-shadow: rgb(22, 46, 255) 0px 0px 10px;
 }
 #android:hover{
     box-shadow: rgb(0, 221, 118) 0px 0px 10px;
@@ -351,7 +352,8 @@ body{
 .title{
     /* font-family: 'Noto Sans JP', sans-serif; */
     /* font-family: 'Playfair Display', serif; */
-    font-family: 'Merriweather Sans', sans-serif;
+    /* font-family: 'Merriweather Sans', sans-serif; */
+    font-family: 'Lora', serif;
     letter-spacing: 1.5px;
     text-align: center;
     margin-top: 100px;

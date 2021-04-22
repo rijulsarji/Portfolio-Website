@@ -109,7 +109,8 @@ body{
 }
 
 .title{
-    font-family: 'Noto Sans JP', sans-serif;
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    font-family: 'Lora', serif;
     text-align: center;
     text-transform: uppercase;
     margin-top: 100px;
