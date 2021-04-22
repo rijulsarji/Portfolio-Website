@@ -9,12 +9,8 @@ html{
 body{
     overflow-x: hidden;
     background: rgb(222, 231, 252);
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;
 }
-body::-webkit-scrollbar{
-    display: none;
-}
+
 .top{
     background: rgb(191, 209, 247);
     display: flex;
@@ -133,7 +129,7 @@ body::-webkit-scrollbar{
     margin-right: auto;
     /* border: 5px solid black; */
     display: grid;
-    min-height: 70vh;
+    min-height: 100vh;
     width: 80vw;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
@@ -144,9 +140,11 @@ body::-webkit-scrollbar{
 }
 .skill{
     /* border: 5px solid black; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: space-around;
     justify-content: center;
     border-radius: 10px;
     padding: 20px;
@@ -156,6 +154,11 @@ body::-webkit-scrollbar{
     text-align: center;
     transition: box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
     font-family: 'Kanit', sans-serif;
+}
+.skill img{
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .skill:hover{
     box-shadow: darkblue 0px 0px 10px;
@@ -189,7 +192,7 @@ body::-webkit-scrollbar{
 .card-container {
     
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     overflow-x: hidden;
     display: flex;
     margin-top: 50px;
@@ -198,6 +201,7 @@ body::-webkit-scrollbar{
     padding: 4rem;
     /* padding-left: 0rem; */
     left: 100px;
+    /* border: 5px solid black; */
     /* position: fixed; */
 }
 

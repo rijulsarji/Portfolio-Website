@@ -1,7 +1,8 @@
 :root{
     --lightest: rgb(233, 253, 238);
     --light: rgb(146, 252, 169);
-    --dark: rgb(0, 68, 15);
+    /* --dark: rgb(0, 68, 15); */
+    --dark: rgb(0, 68, 51);
 }
 
 html{
@@ -126,6 +127,7 @@ body::-webkit-scrollbar{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    align-content: space-between;
     width: 70vw;
     height: 60vh;
     margin: 5vh auto 150px auto;
