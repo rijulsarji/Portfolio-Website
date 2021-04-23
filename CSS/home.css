@@ -185,7 +185,7 @@ body{
     margin-right: auto;
     /* border: 5px solid black; */
     display: grid;
-    min-height: 100vh;
+    min-height: 80vh;
     width: 85vw;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
