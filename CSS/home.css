@@ -245,10 +245,10 @@ body{
     box-shadow: rgb(0, 221, 118) 0px 0px 10px;
 }
 #web:hover{
-    box-shadow: orangered 0px 0px 10px;
+    box-shadow: rgb(255, 153, 0) 0px 0px 10px;
 }
 #hackathon:hover{
-    box-shadow: red 0px 0px 10px;
+    box-shadow: rgb(124, 0, 0) 0px 0px 10px;
 }
 
 
