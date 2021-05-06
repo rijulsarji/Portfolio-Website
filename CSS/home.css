@@ -584,15 +584,15 @@ body{
         margin-top: 50px;
         /* margin-left: auto;
         margin-right: auto; */
-        border: 5px solid black;
+        /* border: 5px solid black; */
         display: grid;
         min-height: 50vh;
         width: 40%;
         justify-content: center;
-        grid-template-columns: 15vw 15vw;
+        grid-template-columns: 40vw 40vw;
         grid-template-rows: 140px 140px;
-        column-gap: 18px;
-        row-gap: 18px;
+        column-gap: 25px;
+        row-gap: 25px;
         /* padding: 15px; */
     }
     .skill{
@@ -619,7 +619,8 @@ body{
         margin-top: -15px;
     }
     .skill p{
-        font-size: 11px;
+        font-size: 14px;
+        line-height: 24px;
     }
     .skill img{
         padding-top: 0px;
