@@ -585,7 +585,7 @@ body{
         min-height: 50vh;
         width: 100%;
         justify-content: center;
-        grid-template-columns: 142px 142px 142px;
+        grid-template-columns: 28vw 28vw 28vw;
         grid-template-rows: 140px 140px;
         column-gap: 18px;
         row-gap: 18px;
@@ -785,3 +785,6 @@ body{
         margin-left: 25px;
     }
 }
+
+
+/* optimisong for phone */
