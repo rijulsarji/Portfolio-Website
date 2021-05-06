@@ -654,7 +654,118 @@ body{
 
 
     /* card animation */
-    
+    .card-container {
+        
+        width: 100vw;
+        height: 80vh;
+        overflow-x: hidden;
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+        /* background-color: #100e17; */
+        padding: 4rem;
+        /* padding-left: 0rem; */
+        left: 100px;
+        /* border: 5px solid black; */
+        /* position: fixed; */
+    }
+
+    .card {
+        min-width: 300px;
+        height: 350px;
+        border-radius: 16px;
+        background-color: #b5bff5;
+        box-shadow: -1rem 0 3rem #000;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+
+
+    .projimg{
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tags {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem 0 1rem;
+    }
+
+    .tags div {
+        font-size: 11px;
+        font-weight: 700;
+        padding: 4px 10px;
+        border: 2px solid #28242f;
+        border-radius: 2rem;
+    }
+
+    .card .category-title {
+        font-size: 14px;
+        color: #fff;
+        margin-bottom: 1rem;
+        line-height: 28px;
+    }
+
+    .card .article-title {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .card .article-header {
+        margin-bottom: auto;
+    }
+
+    .card .author {
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: 75px 1fr;
+    }
+
+    .author .info .caption {
+        color: #8a8a8a;
+    }
+    .card:first-child{
+        margin-left: 50px;
+    }
+    .card:not(:first-child) {
+        margin-left: -130px;
+    }
+
+    .card:hover {
+        transform: translateY(-1rem);
+    }
+
+    .card:hover~.card{
+        transform: translateX(130px);
+    }
+    .projname{
+        font-size: 25px;
+    }
+    .date{
+        font-size: 17px;
+    }
+    .title{
+        /* font-family: 'Noto Sans JP', sans-serif; */
+        /* font-family: 'Playfair Display', serif; */
+        /* font-family: 'Merriweather Sans', sans-serif; */
+        font-family: 'Lora', serif;
+        letter-spacing: 1.5px;
+        text-align: center;
+        margin-top: 100px;
+        font-size: 50px;
+        font-weight: 800;
+        color: rgb(8, 8, 80);
+        /* text-decoration: underline; */
+        text-transform: uppercase;
+        word-spacing: 7px;
+    }
+
     .bottom{
         display: flex;
         flex-direction: row;
