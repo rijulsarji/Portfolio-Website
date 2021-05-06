@@ -553,7 +553,7 @@ body{
         font-family: 'Kanit', sans-serif;
         transition: background-color 0.5s, color 0.5s;
     }
-    .intro a{
+    .intro a:hover{
         background: rgb(174, 202, 255);
         color: rgb(0, 0, 75);
     }
@@ -586,9 +586,9 @@ body{
         border: 5px solid black;
         display: grid;
         min-height: 50vh;
-        width: 80%;
+        width: 40%;
         justify-content: center;
-        grid-template-columns: 35vw 35vw;
+        grid-template-columns: 15vw 15vw;
         grid-template-rows: 140px 140px;
         column-gap: 18px;
         row-gap: 18px;
