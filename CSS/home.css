@@ -397,6 +397,7 @@ body{
 @media screen and (max-width: 1080px) {
     html{
         scroll-behavior: smooth;
+        overflow-x: hidden;
     }
     *{
         margin: 0px;
