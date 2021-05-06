@@ -6,6 +6,6 @@ function oppen(el){
 function closse(el){
     var elem = document.getElementById(el);
     elem.style.transition = "right 0.5s linear";
-    elem.style.right = "-150px";
+    elem.style.right = "-30vw";
 }
 
