@@ -583,7 +583,7 @@ body{
         /* border: 5px solid black; */
         display: grid;
         min-height: 50vh;
-        width: 85vw;
+        width: 100%;
         justify-content: center;
         grid-template-columns: 142px 142px 142px;
         grid-template-rows: 140px 140px;
