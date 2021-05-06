@@ -592,7 +592,7 @@ body{
         grid-template-rows: 140px 140px;
         column-gap: 18px;
         row-gap: 18px;
-        padding: 15px;
+        /* padding: 15px; */
     }
     .skill{
         /* border: 5px solid black; */
