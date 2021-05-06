@@ -464,8 +464,8 @@ body{
         z-index: 3;
         top: 0;
         overflow: hidden;
-        /* right: -350px; */
-        right: 0px;
+        right: -350px;
+        /* right: 0px; */
         background: #111D4A;
         height: 100vh;
         width: 150px;
@@ -520,21 +520,22 @@ body{
     .intro{
         display: flex;
         flex-direction: column;
-        padding-top: 25vh;
-        padding-left: 10vw;
+        padding-top: 10vh;
+        padding-left: 5vw;
         color: rgb(174, 202, 255);
     }
-    .intro h1{
+    /* .intro h1{
         font-family: 'Cutive Mono', monospace;
         font-weight: 900;
-        font-size: 30px;
-    }
+        font-size: 10px;
+    } */
     .intro p{
         font-family: 'Rufina', serif;
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 20px;
         margin-bottom: 55px;
-        line-height: 70px;
+        margin-right: 25px;
+        line-height: 50px;
     }
     .aboutt{
         width: 110%;
@@ -545,20 +546,20 @@ body{
         height: 110%;
         padding: 10px;
         border-radius: 7px;
-        font-size: 25px;
+        font-size: 20px;
         color: rgb(174, 202, 255);
         text-decoration: none;
         font-family: 'Kanit', sans-serif;
         transition: background-color 0.5s, color 0.5s;
     }
-    .intro a:hover{
+    .intro a:on{
         background: rgb(174, 202, 255);
         color: rgb(0, 0, 75);
     }
     .down{
         display: flex;
         justify-content: space-between;
-        margin-top: 90px;
+        margin-top: 200px;
         
     }
     .down a{
@@ -566,10 +567,10 @@ body{
         height: 110%;
         padding: 10px;
         margin-top: 120px;
-        font-size: 25px;
+        font-size: 15px;
         color: rgb(174, 202, 255);
         font-family: 'Kanit', sans-serif;
-        font-weight: 900;
+        font-weight: 700;
         text-decoration: none;
         border-radius: 7px;
         transition: background-color 0.5s, color 0.5s;
@@ -581,11 +582,11 @@ body{
         margin-right: auto;
         /* border: 5px solid black; */
         display: grid;
-        min-height: 80vh;
+        min-height: 50vh;
         width: 85vw;
         justify-content: center;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
+        grid-template-columns: 142px 142px 142px;
+        grid-template-rows: 140px 140px;
         column-gap: 18px;
         row-gap: 18px;
         padding: 15px;
@@ -610,13 +611,14 @@ body{
         font-family: 'Kumbh Sans', sans-serif;
     }
     .skill h1{
-        font-size: 30px;
+        font-size: 15px;
+        margin-top: -15px;
     }
     .skill p{
-        font-size: 20px;
+        font-size: 11px;
     }
     .skill img{
-        padding-top: 20px;
+        padding-top: 0px;
         margin-left: auto;
         margin-right: auto;
     }
