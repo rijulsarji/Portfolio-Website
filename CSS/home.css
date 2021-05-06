@@ -578,7 +578,79 @@ body{
     }
 
     
-   
+    /* skillset grid */
+    .skillset{
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid black;
+        display: grid;
+        min-height: 50vh;
+        width: 80%;
+        justify-content: center;
+        grid-template-columns: 35vw 35vw;
+        grid-template-rows: 140px 140px;
+        column-gap: 18px;
+        row-gap: 18px;
+        padding: 15px;
+    }
+    .skill{
+        /* border: 5px solid black; */
+        /* display: flex;
+        flex-direction: column; */
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: space-around;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 0px;
+        cursor: default;
+        box-shadow: black 0px 0px 5px;
+        text-align: center;
+        transition: box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
+        /* font-family: 'Kanit', sans-serif; */
+        /* font-family: 'Merriweather Sans', sans-serif; */
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+    .skill h1{
+        font-size: 15px;
+        margin-top: -15px;
+    }
+    .skill p{
+        font-size: 11px;
+    }
+    .skill img{
+        padding-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skill:hover{
+        box-shadow: darkblue 0px 0px 10px;
+        transform: scale(1.02);
+    }
+    .skill:nth-child(1){
+        grid-column-start: span 2;
+        /* grid-row-start: span 3; */
+    }
+    .skill:nth-child(6), .skill:nth-child(7), .skill:nth-child(8){
+        opacity: 0;
+    }
+    #hackerrank:hover{
+        box-shadow: green 0px 0px 10px;
+    }
+    #python:hover{
+        box-shadow: rgb(22, 46, 255) 0px 0px 10px;
+    }
+    #android:hover{
+        box-shadow: rgb(0, 221, 118) 0px 0px 10px;
+    }
+    #web:hover{
+        box-shadow: rgb(255, 153, 0) 0px 0px 10px;
+    }
+    #hackathon:hover{
+        box-shadow: rgb(124, 0, 0) 0px 0px 10px;
+    }
 
 
     /* card animation */
