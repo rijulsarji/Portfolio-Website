@@ -408,81 +408,177 @@ body{
         background: rgb(222, 231, 252);
     }
 
-    
-    
-    /* skillset grid */
-    .skillset{
-        margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
-        /* border: 5px solid black; */
-        display: grid;
-        min-height: 50vh;
-        width: 100%;
-        justify-content: center;
-        grid-template-columns: 35vw 35vw;
-        grid-template-rows: 140px 140px;
-        column-gap: 18px;
-        row-gap: 18px;
-        padding: 15px;
+    .top{
+        background: rgb(191, 209, 247);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 7vh;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: 1s;
+        position: fixed;
+        z-index: 2;
     }
-    .skill{
-        /* border: 5px solid black; */
-        /* display: flex;
-        flex-direction: column; */
-        display: grid;
-        grid-template-columns: 1fr;
-        align-content: space-around;
+    .rs{
+        display: flex;
         justify-content: center;
-        border-radius: 10px;
-        padding: 20px;
-        padding-top: 0px;
+        align-items: center;
+        background: rgb(9, 0, 90);
+        color: rgb(214, 224, 247);
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        /* transition: background-color 0.5s, color 0.5s; */
+        border-radius: 4px;
         cursor: default;
-        box-shadow: black 0px 0px 5px;
-        text-align: center;
-        transition: box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
-        /* font-family: 'Kanit', sans-serif; */
-        /* font-family: 'Merriweather Sans', sans-serif; */
-        font-family: 'Kumbh Sans', sans-serif;
     }
-    .skill h1{
+    
+    /* .name{
+        transition: 0.5s 1s;
+        font-size: 35px;
+        color: rgb(9, 0, 90);
+    } */
+    /* .project a{
+        text-decoration: none;
+        transition: 0.5s 1s;
+        font-size: 35px;
+        color: rgb(9, 0, 90);
+    }
+    .project a:visited{
+        color: rgb(9, 0, 90);
+    } */
+    .line{
+        width: 30px;
+        height: 5px;
+        background: rgb(9, 0, 90);
+        margin: 6px 0px;
+        transition: 0.5s 0.8s;
+    }
+    /* side nav bar */
+    #menu{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        overflow: hidden;
+        right: -150px;
+        /* right: 0px; */
+        background: #111D4A;
+        height: 100vh;
+        width: 150px;
+        
+    }
+    .links{
+        display: flex;
+        padding-top: 25px;
+        align-items: center;
+        flex-direction: column;
         font-size: 15px;
-        margin-top: -15px;
+        height: 15vh;
+        color: rgb(191, 209, 247);
+        text-decoration: none;
+        font-family: 'Noto Sans JP', sans-serif;
+        
+        /* background: rgb(156, 162, 255); */
     }
-    .skill p{
-        font-size: 11px;
+    .navbar a{
+        padding: 0;
+        margin: 0;
+        height: 25px;
+        margin-bottom:60px;
+        transition: text-shadow 0.3s;
+        /* border: 5px solid black; */
     }
-    .skill img{
-        padding-top: 0px;
-        margin-left: auto;
-        margin-right: auto;
+    .navbar a:hover{
+        text-shadow: white 0px 0px 35px;
     }
-    .skill:hover{
-        box-shadow: darkblue 0px 0px 10px;
-        transform: scale(1.02);
+    .social{
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        margin-top: 30vh;
+        padding-left: 10px;
+        padding-right: 5px;
     }
-    .skill:nth-child(1){
-        grid-column-start: span 2;
-        /* grid-row-start: span 3; */
+    .social a{
+        margin-left: 10px;
+        margin-right: 10px;
     }
-    .skill:nth-child(6), .skill:nth-child(7), .skill:nth-child(8){
-        opacity: 0;
+
+    /* bgimage */
+    .bgimage{
+        background-image: url("./blue.jpg");
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
-    #hackerrank:hover{
-        box-shadow: green 0px 0px 10px;
+    .intro{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10vh;
+        padding-left: 5vw;
+        color: rgb(174, 202, 255);
     }
-    #python:hover{
-        box-shadow: rgb(22, 46, 255) 0px 0px 10px;
+    /* .intro h1{
+        font-family: 'Cutive Mono', monospace;
+        font-weight: 900;
+        font-size: 10px;
+    } */
+    .intro p{
+        font-family: 'Rufina', serif;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 55px;
+        margin-right: 25px;
+        line-height: 50px;
     }
-    #android:hover{
-        box-shadow: rgb(0, 221, 118) 0px 0px 10px;
+    .aboutt{
+        width: 110%;
+        height: 110%;
     }
-    #web:hover{
-        box-shadow: rgb(255, 153, 0) 0px 0px 10px;
+    .aboutt a{
+        width: 110%;
+        height: 110%;
+        padding: 10px;
+        border-radius: 7px;
+        font-size: 20px;
+        color: rgb(174, 202, 255);
+        text-decoration: none;
+        font-family: 'Kanit', sans-serif;
+        transition: background-color 0.5s, color 0.5s;
     }
-    #hackathon:hover{
-        box-shadow: rgb(124, 0, 0) 0px 0px 10px;
+    .intro a:on{
+        background: rgb(174, 202, 255);
+        color: rgb(0, 0, 75);
     }
+    .down{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 200px;
+        
+    }
+    .down a{
+        width: 110%;
+        height: 110%;
+        padding: 10px;
+        margin-top: 120px;
+        font-size: 15px;
+        color: rgb(174, 202, 255);
+        font-family: 'Kanit', sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        border-radius: 7px;
+        transition: background-color 0.5s, color 0.5s;
+    }
+
+    
+   
 
 
     /* card animation */
