@@ -465,7 +465,7 @@ body{
         z-index: 3;
         top: 0;
         overflow: hidden;
-        right: -300px;
+        right: -150px;
         /* right: 0px; */
         background: #111D4A;
         height: 100vh;
