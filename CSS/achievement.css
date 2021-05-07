@@ -397,9 +397,7 @@ body{
         margin-top: 15px;
         width: 40px;
     }
-    .hackerrank p{
-        white-space: nowrap;
-    }
+    
     .achievement p{
         font-size: 15px;
         /* white-space: nowrap; */
@@ -435,6 +433,11 @@ body{
     .hack p{
         padding-left: 25px;
         padding-right: 25px;
+    }
+    .hackerrank p{
+        white-space: nowrap;
+        font-size: 12px;
+        margin-top: 10px;
     }
     #hack2{
         width: 110px;
