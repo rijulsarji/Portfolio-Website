@@ -587,6 +587,10 @@ body{
         /* border: 5px solid black; */
         display: flex;
         flex-direction: column;
+        min-height: 50vh;
+        width: 90vw;
+        justify-content: center;        
+        /* padding: 15px; */
     }
     .skill{
         /* border: 5px solid black; */
