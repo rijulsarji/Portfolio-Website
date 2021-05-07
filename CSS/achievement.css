@@ -413,6 +413,7 @@ body{
     .badge:hover{
         transform: scale(1.1);
     }
+    
     .achievement:nth-child(1){
         grid-column-start: span 2;
         grid-row-start: span 1;
@@ -438,6 +439,9 @@ body{
         white-space: nowrap;
         font-size: 12px;
         margin-top: 10px;
+    }
+    #CStar{
+        margin-top: 15px;
     }
     #hack2{
         width: 110px;
