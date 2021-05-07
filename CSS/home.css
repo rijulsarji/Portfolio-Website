@@ -236,17 +236,34 @@ body{
 .skill:nth-child(6), .skill:nth-child(7), .skill:nth-child(8){
     opacity: 0;
 }
+#hackerrank img{
+    width: 90px;
+}
 #hackerrank:hover{
     box-shadow: green 0px 0px 10px;
+}
+#python img{
+    width: 90px;
 }
 #python:hover{
     box-shadow: rgb(22, 46, 255) 0px 0px 10px;
 }
+#android img{
+    height: 70px;
+    padding-top: 20px; 
+    margin-top: 50px;
+}
 #android:hover{
     box-shadow: rgb(0, 221, 118) 0px 0px 10px;
 }
+#web img{
+    height: 125px;
+}
 #web:hover{
     box-shadow: rgb(255, 153, 0) 0px 0px 10px;
+}
+#hackathon img{
+    height: 130px;
 }
 #hackathon:hover{
     box-shadow: rgb(124, 0, 0) 0px 0px 10px;
@@ -619,6 +636,8 @@ body{
     .skill p{
         font-size: 14px;
         line-height: 24px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .skill img{
         padding-top: 0px;
@@ -629,21 +648,46 @@ body{
         box-shadow: darkblue 0px 0px 10px;
         transform: scale(1.02);
     }
-   
+
     .skill:nth-child(6), .skill:nth-child(7), .skill:nth-child(8){
         display: none;
+    }
+
+    #hackerrank img{
+        width: 65px;
+        padding-bottom: 10px;
     }
     #hackerrank:hover{
         box-shadow: green 0px 0px 10px;
     }
+    #python img{
+        width: 45px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
     #python:hover{
         box-shadow: rgb(22, 46, 255) 0px 0px 10px;
+    }
+    #android img{
+        height: 60px;
+        margin-top: 0px;
+        padding-bottom: 20px;
     }
     #android:hover{
         box-shadow: rgb(0, 221, 118) 0px 0px 10px;
     }
+    #web img{
+        height: 85px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
     #web:hover{
         box-shadow: rgb(255, 153, 0) 0px 0px 10px;
+    }
+    #hackathon img{
+        height: 90px;
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
     #hackathon:hover{
         box-shadow: rgb(124, 0, 0) 0px 0px 10px;
@@ -712,9 +756,10 @@ body{
     .tags div {
         font-size: 8px;
         font-weight: 700;
-        padding: 4px 10px;
+        padding: 1px 5px;
         border: 2px solid #28242f;
         border-radius: 2rem;
+        margin-bottom: 0px;
     }
 
     .card .category-title {
@@ -771,6 +816,50 @@ body{
         /* text-decoration: underline; */
         text-transform: uppercase;
         word-spacing: 7px;
+        /* line-height: px; */
+    }
+    #amandaImg{
+        width: 55px;
+    }
+    #amandaTitle{
+        
+        white-space: nowrap;
+        /* border: 1px solid black; */
+    }
+    #amandaTags{
+        margin-right: 7px;
+    }
+    #pygameName{
+        margin-bottom: -15px;
+    }
+    #pygameImg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        /* border: 1px solid black; */
+        margin-left: -65px;
+        padding-bottom: ;
+    }
+    #pygame1{
+        width: 65px;
+        margin-top: -25px;
+    }
+    #pygame2{
+        width: 65px;
+        margin-bottom: 25px;
+    }
+    #pygameTags{
+        margin-top: -5px;
+    }
+    #moodyAI{
+        width: 45px;
+    }
+    #cindy{
+        width: 40px; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .bottom{
