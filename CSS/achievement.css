@@ -432,6 +432,10 @@ body{
         margin-top: 10px;
         margin-bottom: 25px;
     }
+    .hack p{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
     #hack2{
         width: 110px;
         padding-top: 35px;
