@@ -798,6 +798,7 @@ body{
 
     .projname{
         font-size: 10px;
+        /* line-height: 2px; */
     }
     .date{
         font-size: 8px;
@@ -816,6 +817,8 @@ body{
         /* text-decoration: underline; */
         text-transform: uppercase;
         word-spacing: 7px;
+        margin-right: 5px;
+        line-height: 1px;
         /* line-height: px; */
     }
     #amandaImg{
@@ -824,8 +827,12 @@ body{
     #amandaTitle{
         
         white-space: nowrap;
-        padding-right: 10px;
-        /* border: 1px solid black; */
+        margin-right: 10px;
+        border: 1px solid black;
+        margin-left: -15px;
+    }
+    #amandaDate{
+        margin-left: -15px;
     }
     #amandaTags{
         margin-right: 7px;
