@@ -653,7 +653,7 @@ body{
     /* card animation */
     .card-container {
         
-        width: 80vw;
+        width: 100vw;
         height: 90vh;
         overflow-x: hidden;
         display: grid;
@@ -674,9 +674,9 @@ body{
     }
 
     .card {
-        min-width: 200px;
-        max-width: 200px;
-        height: 240px;
+        min-width: 160px;
+        max-width: 160px;
+        height: 200px;
         border-radius: 16px;
         background-color: #b5bff5;
         box-shadow: none;
@@ -697,7 +697,7 @@ body{
     }
 
     .projimg{
-        width: 65px;
+        width: 35px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -752,10 +752,10 @@ body{
     }
 
     .projname{
-        font-size: 15px;
+        font-size: 10px;
     }
     .date{
-        font-size: 12px;
+        font-size: 8px;
     }
     .title{
         /* font-family: 'Noto Sans JP', sans-serif; */
