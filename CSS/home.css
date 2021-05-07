@@ -653,18 +653,20 @@ body{
     /* card animation */
     .card-container {
         
-        width: 100vw;
+        width: 80vw;
         height: 90vh;
         overflow-x: hidden;
         display: grid;
+        margin-left: auto;
+        margin-right: auto;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         margin-top: 20px;
-        
+        align-items: center;
         justify-content: center;
         /* background-color: #100e17; */
         padding: 4rem;
-        margin-bottom: 100px;
+        margin-bottom: 30px;
         /* padding-left: 0rem; */
         /* left: 100px; */
         /* border: 5px solid black; */
@@ -677,7 +679,7 @@ body{
         height: 240px;
         border-radius: 16px;
         background-color: #b5bff5;
-        box-shadow: -1rem 0 3rem #000;
+        box-shadow: none;
         display: flex;
         flex-direction: column;
         padding: 1.5rem;
@@ -686,6 +688,13 @@ body{
         margin-bottom: 35px;
     }
 
+    .card:hover {
+    transform: none;
+    }
+
+    .card:hover~.card{
+        transform: none;
+    }
 
     .projimg{
         width: 65px;
@@ -742,7 +751,6 @@ body{
         margin-right: 15px;
     }
 
-   
     .projname{
         font-size: 15px;
     }
@@ -769,7 +777,7 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin-top: 20px;
+        margin-top: 0px;
         /* margin-bottom: 20px; */
         font-size: 10px;
         font-family: 'Noto Sans JP', sans-serif;
