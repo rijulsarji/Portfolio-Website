@@ -423,7 +423,7 @@ body{
 
 
 
-
+/* optimising on phone */
 @media screen and (max-width: 1080px) {
     html{
         scroll-behavior: smooth;
@@ -466,21 +466,11 @@ body{
         border-radius: 4px;
         cursor: default;
     }
-    
-    /* .name{
-        transition: 0.5s 1s;
-        font-size: 35px;
-        color: rgb(9, 0, 90);
-    } */
-    /* .project a{
-        text-decoration: none;
-        transition: 0.5s 1s;
-        font-size: 35px;
-        color: rgb(9, 0, 90);
+    .rs:hover{
+        background: rgb(9, 0, 90);
+        color: rgb(214, 224, 247);
     }
-    .project a:visited{
-        color: rgb(9, 0, 90);
-    } */
+    
     .line{
         width: 30px;
         height: 5px;
