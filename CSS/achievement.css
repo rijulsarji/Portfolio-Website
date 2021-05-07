@@ -352,8 +352,9 @@ body{
         align-content: space-between;
         width: 10vw;
         height: 80vh;
-        margin: 5vh auto 150px auto;
-        margin-left: 5px;
+        margin-top: 5vh;
+        margin-bottom: 150px;
+        margin-left: 15px;
         row-gap: 15px;
         column-gap: 15px;
     }
@@ -395,6 +396,9 @@ body{
     .hackerrank img{
         margin-top: 15px;
         width: 40px;
+    }
+    .hackerrank p{
+        white-space: nowrap;
     }
     .achievement p{
         font-size: 15px;
