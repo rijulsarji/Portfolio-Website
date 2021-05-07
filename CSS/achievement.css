@@ -247,7 +247,7 @@ body{
     body{
         overflow-x: hidden;
         background: var(--lightest);
-        background: black;
+        /* background: black; */
     }
     .top{
         background: var(--light);
@@ -295,7 +295,7 @@ body{
         z-index: 3;
         top: 0;
         overflow: hidden;
-        right: 150px;
+        right: -150px;
         /* right: 0px; */
         background: var(--dark);
         height: 100vh;
@@ -393,10 +393,12 @@ body{
         width: 100%;
     }
     .hackerrank img{
-        width: 100px;
+        margin-top: 15px;
+        width: 40px;
     }
     .achievement p{
-        font-size: 20px;
+        font-size: 15px;
+        /* white-space: nowrap; */
     }
     .badge{
         display: flex;
@@ -422,20 +424,27 @@ body{
         align-items: center;
     }
     .hack img{
-        width: 150px;
+        width: 60px;
+        margin-top: 10px;
+        margin-bottom: 25px;
     }
     #hack2{
-        width: 250px;
-        padding-top: 50px; 
-        margin-bottom: 50px;
+        width: 110px;
+        padding-top: 35px;
+        margin-bottom: 30px;
+        padding-bottom: 0px;
     }
     #nasaHack{
-        width: 150px;
+        width: 80px;
     }
     #nielit{
-        width: 200px;
+        width: 100px;
+        margin-top: 15px;
         margin-bottom: 70px; 
-        padding-top: 30px;
+        padding-top: 0px;
+    }
+    #nasaP{
+        word-wrap: normal;
     }
     /* bottom */
     .bottom{
