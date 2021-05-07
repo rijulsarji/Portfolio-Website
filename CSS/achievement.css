@@ -247,6 +247,7 @@ body{
     body{
         overflow-x: hidden;
         background: var(--lightest);
+        background: black;
     }
     .top{
         background: var(--light);
