@@ -824,6 +824,7 @@ body{
     #amandaTitle{
         
         white-space: nowrap;
+        padding-right: 10px;
         /* border: 1px solid black; */
     }
     #amandaTags{
@@ -839,7 +840,7 @@ body{
         width: 250px;
         /* border: 1px solid black; */
         margin-left: -65px;
-        padding-bottom: ;
+        
     }
     #pygame1{
         width: 65px;
