@@ -561,14 +561,14 @@ body{
     .down{
         display: flex;
         justify-content: space-between;
-        margin-top: 200px;
+        margin-top: 150px;
         
     }
     .down a{
         width: 100%;
         height: 100%;
         padding: 10px;
-        margin-top: 120px;
+        margin-top: 0px;
         font-size: 15px;
         color: rgb(174, 202, 255);
         font-family: 'Kanit', sans-serif;
@@ -603,6 +603,7 @@ body{
         border-radius: 10px;
         padding: 20px;
         padding-top: 0px;
+        margin-top: 25px;
         cursor: default;
         box-shadow: black 0px 0px 5px;
         text-align: center;
