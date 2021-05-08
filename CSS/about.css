@@ -335,7 +335,7 @@ body{
         margin-left: 10px;
         /* margin-right: 80px; */
         padding: 5px;
-        column-gap: 10px;
+        column-gap: 5px;
         margin-bottom: 35px;
         /* align-items: center; */
     }
@@ -348,7 +348,7 @@ body{
         font-family: 'Rufina', serif;
     }
     .contact{
-        margin-left: 10%;
+        margin-left: 10px;
         line-height: 30px;
         padding-left: 20px;
     }
@@ -356,10 +356,10 @@ body{
         text-align: center;
     }
     #contactDiv{
-        margin-top: 25px;
+        margin-top: 5px;
     }
     #contactSubtitle{
-        margin-top: 50px;
+        margin-top: 20px;
     }
     #subtitleSpan{
         margin-top: 250px;
@@ -382,7 +382,7 @@ body{
         text-align: left;
     }
     #detailsP{
-        margin-top: 0px;
+        margin-top: -25px;
         font-family: 'Noto Sans JP', sans-serif;
         line-height: 20px;
         text-align: left;
