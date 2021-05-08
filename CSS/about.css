@@ -349,10 +349,11 @@ body{
         font-family: 'Rufina', serif;
     }
     .contact{
-        margin-left: -125px;
+        margin-left: 0px;
         margin-top: 35px;
         line-height: 30px;
         padding-left: 0px;
+        width: 300px;
         /* border: 2px solid black; */
     }
     .contact span{
@@ -366,7 +367,6 @@ body{
     }
     #subtitleSpan{
         margin-top: 250px;
-        display: none;
     }
     .subtitle{
         color: rgb(139, 139, 139);
@@ -377,7 +377,7 @@ body{
         font-weight: 900;
     }
     .intro{
-        width: 250px;
+        width: 300px;
     }
     .intro p{
         font-family: 'Noto Sans JP', sans-serif;
@@ -394,7 +394,6 @@ body{
         line-height: 20px;
         text-align: left;
         font-size: 13px;
-        display: none;
     }
     #detailsEmail{
         color: rgb(126, 126, 126);
