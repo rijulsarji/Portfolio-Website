@@ -326,17 +326,17 @@ body{
     }
 
     .text{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
+        display: flex;
+        flex-direction: column;
         justify-content: space-around;
+        align-items: center;
         width: 90vw;
         height: 100%;
-        margin-left: 40px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 35px;
         /* margin-right: 80px; */
-        padding: 5px;
-        column-gap: 5px;
+        padding: 0px;
         margin-bottom: 35px;
         /* align-items: center; */
     }
@@ -349,9 +349,11 @@ body{
         font-family: 'Rufina', serif;
     }
     .contact{
-        margin-left: 10px;
+        margin-left: 70px;
+        margin-top: 35px;
         line-height: 30px;
-        padding-left: 20px;
+        padding-left: 0px;
+        /* border: 2px solid black; */
     }
     .contact span{
         text-align: center;
@@ -374,7 +376,7 @@ body{
         font-weight: 900;
     }
     .intro{
-        width: 250px;
+        width: 450px;
     }
     .intro p{
         font-family: 'Noto Sans JP', sans-serif;
