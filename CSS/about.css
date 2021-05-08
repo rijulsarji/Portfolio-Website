@@ -334,8 +334,8 @@ body{
         height: 100%;
         margin-left: 20px;
         /* margin-right: 80px; */
-        padding: 20px;
-        column-gap: 20px;
+        padding: 5px;
+        column-gap: 10px;
         margin-bottom: 35px;
         /* align-items: center; */
     }
