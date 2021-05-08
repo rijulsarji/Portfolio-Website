@@ -248,6 +248,9 @@ body{
 #python:hover{
     box-shadow: rgb(22, 46, 255) 0px 0px 10px;
 }
+#pythonP{
+    white-space: nowrap;
+}
 #android img{
     height: 70px;
     padding-top: 20px; 
@@ -670,6 +673,9 @@ body{
     }
     #python:hover{
         box-shadow: rgb(22, 46, 255) 0px 0px 10px;
+    }
+    #pythonP{
+    white-space: normal;
     }
     #android img{
         height: 60px;
