@@ -147,6 +147,15 @@ body{
 .contact span{
     text-align: center;
 }
+#contactDiv{
+    margin-top: 25px;
+}
+#contactSubtitle{
+    margin-top: 50px;
+}
+#subtitleSpan{
+    margin-top: 250px;
+}
 .subtitle{
     color: rgb(139, 139, 139);
     font-size: 20px;
@@ -162,7 +171,19 @@ body{
 }
 .details{
     font-size: 20px;
+    text-align: left;
 }
+#detailsP{
+    margin-top: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 35px;
+    text-align: left;
+}
+#detailsEmail{
+    color: rgb(126, 126, 126);
+}
+
+
 
 /* bottom */
 .bottom{
@@ -185,4 +206,191 @@ body{
 .bottom p{
     font-size: 15px;
     margin-left: 25px;
+}
+
+
+
+
+
+/* optimising for phone */
+
+@media screen and (max-width: 1080px) {
+
+    html{
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
+        background: var(--lightest);
+    }
+    .top{
+        background: var(--light);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 7vh;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: 1s;
+        position: fixed;
+        z-index: 2;
+    }
+    .rs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--dark);
+        color: var(--light);
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        transition: background-color 0.5s, color 0.5s;
+        border-radius: 4px;
+        cursor: default;
+    }
+    .rs:hover{
+        background: var(--light);
+        color: var(--dark);
+    }
+    .line{
+        width: 30px;
+        height: 5px;
+        background: var(--dark);
+        margin: 6px 0px;
+        transition: 0.5s 0.8s;
+    }
+    /* side nav bar */
+    #menu{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        overflow: hidden;
+        right: -150px;
+        /* right: 0px; */
+        background: var(--dark);
+        height: 100vh;
+        width: 150px;
+    }
+    .links{
+        display: flex;
+        padding-top: 25px;
+        align-items: center;
+        flex-direction: column;
+        font-size: 15px;
+        height: 15vh;
+        color: var(--light);
+        text-decoration: none;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    .navbar a{
+        padding: 0;
+        margin: 0;
+        height: 25px;
+        margin-bottom:60px;
+        transition: text-shadow 0.3s;
+    }
+    .navbar a:hover{
+        text-shadow: white 0px 0px 35px;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        margin-top: 30vh;
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    .social a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .title{
+        /* font-family: 'Noto Sans JP', sans-serif; */
+        font-family: 'Lora', serif;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 100px;
+        font-size: 30px;
+        font-weight: 800;
+        color: var(--dark);
+    }
+
+    .text{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        justify-content: space-around;
+        width: 90vw;
+        height: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 20px;
+        column-gap: 50px;
+        margin-bottom: 35px;
+        /* align-items: center; */
+    }
+
+    .text p, .text h1, .text span{
+        margin-top: 15px;
+    }
+    .text h1{
+        font-size: 30px;
+        font-family: 'Rufina', serif;
+    }
+    .contact{
+        margin-left: 10%;
+        line-height: 30px;
+        padding-left: 20px;
+    }
+    .contact span{
+        text-align: center;
+    }
+    #contactDiv{
+        margin-top: 25px;
+    }
+    #contactSubtitle{
+        margin-top: 50px;
+    }
+    #subtitleSpan{
+        margin-top: 250px;
+    }
+    .subtitle{
+        color: rgb(139, 139, 139);
+        font-size: 18px;
+        text-transform: uppercase;
+        /* font-family: 'Varela', sans-serif; */
+        font-family: 'Cutive Mono', monospace;
+        font-weight: 900;
+    }
+    .intro p{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+    .details{
+        font-size: 15px;
+        text-align: left;
+    }
+    #detailsP{
+        margin-top: 0px;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 35px;
+        text-align: left;
+        font-size: 15px;
+    }
+    #detailsEmail{
+        color: rgb(126, 126, 126);
+        font-size: 15px;
+    }
+
 }
