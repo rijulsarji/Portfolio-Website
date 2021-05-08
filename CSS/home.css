@@ -712,7 +712,7 @@ body{
         align-items: center;
         justify-content: center;
         /* background-color: #100e17; */
-        padding: 0;
+        padding: 4rem;
         margin-bottom: 30px;
         /* padding-left: 0rem; */
         /* left: 100px; */
@@ -792,6 +792,7 @@ body{
     }
     .card:first-child{
         margin-left: 10px;
+        margin-right: 15px;
     }
     
     .card:not(:first-child) {
