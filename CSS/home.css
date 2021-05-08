@@ -700,11 +700,11 @@ body{
     /* card animation */
     .card-container {
         
-        width: 350px;
+        width: 90vw;
         height: 90vh;
         overflow-x: hidden;
         display: grid;
-        margin-left: 50px;
+        margin-left: auto;
         margin-right: auto;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
