@@ -443,6 +443,9 @@ body{
     #CStar{
         margin-top: 15px;
     }
+    #star3{
+        white-space: nowrap;
+    }
     #hack2{
         width: 110px;
         padding-top: 35px;
