@@ -553,7 +553,7 @@ body{
     } */
     .intro p{
         font-family: 'Rufina', serif;
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 20px;
         margin-bottom: 55px;
         margin-right: 25px;
@@ -581,7 +581,7 @@ body{
     .down{
         display: flex;
         justify-content: space-between;
-        margin-top: 250px;
+        margin-top: 80px;
         
     }
     .down a{
