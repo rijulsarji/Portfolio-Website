@@ -704,7 +704,7 @@ body{
         height: 90vh;
         overflow-x: hidden;
         display: grid;
-        margin-left: auto;
+        margin-left: 190px;
         margin-right: auto;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
