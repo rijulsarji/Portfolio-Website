@@ -372,6 +372,9 @@ body{
         font-family: 'Cutive Mono', monospace;
         font-weight: 900;
     }
+    .intro{
+        width: 300px;
+    }
     .intro p{
         font-family: 'Noto Sans JP', sans-serif;
         font-size: 13px;
